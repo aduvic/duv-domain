@@ -1,0 +1,95 @@
+<html>
+    <head>
+    <Title>IMAGE SCROLLER TEST BUILD</Title>
+    <style type="text/css">
+    
+    #slider {
+        
+        overflow: hidden;
+    }
+
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        bottom: auto;
+        animation: 30s slider infinite;
+    }
+    
+    #slider figure img {
+        width:20%;
+        float: left;
+    }
+
+    @keyframes slider {
+        0%  {
+            left: 0%;
+        }
+        10% {
+            left: 0%;
+        }
+
+        20% {
+            left: -100%;
+        }
+        30% {
+            left: -100%;
+        }
+        40% {
+            left: -200%
+        }
+        50% {
+            left: -200%;
+        }
+        60% {
+            left: -300%;
+        }
+        70% {
+            left: -300%;
+        }
+        80% {
+            left: -400%;
+        }
+        90% {
+            left: -400%;
+        }
+        100% {
+            left: -0%;
+        }
+    }
+
+
+
+
+
+
+
+    </style>
+    </head>
+
+    <Body>
+        <div id="slider">
+            <figure>
+                <img src="img/BJtable1.jpg" height="500px">
+                <img src="img/BJtable2.jpg" height="500px">
+                <img src="img/BJtable3.jpg" height="500px">
+                <img src="img/BJtable4.jpg" height="500px">
+                <img src="img/BJtable5.jpg" height="500px">
+                 
+            
+            </figure>
+
+
+
+
+
+        </div>
+        
+
+
+
+
+    </Body>
+
+</html>
